@@ -24,36 +24,36 @@ export default function HomePageContent() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-slate-50/50">
+        <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-slate-100">
           <div className="absolute inset-0 pointer-events-none select-none overflow-hidden">
-            <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 0.8, x: 0 }} transition={{ duration: 1, delay: 0.2 }} className="absolute top-[15%] left-[10%] md:left-[20%] text-3xl md:text-5xl font-bold text-accent-green opacity-80 rotate-[-5deg]">
+            <motion.div initial={{ x: -50 }} animate={{ x: 0 }} transition={{ duration: 1, delay: 0.2 }} className="absolute top-[15%] left-[10%] md:left-[20%] text-3xl md:text-5xl font-bold text-accent-green opacity-80 rotate-[-5deg]">
               Fürsorge
             </motion.div>
-            <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 0.6, y: 0 }} transition={{ duration: 1, delay: 0.4 }} className="absolute top-[20%] right-[15%] md:right-[25%] text-4xl md:text-6xl font-bold text-accent-cyan opacity-60 rotate-[8deg]">
+            <motion.div initial={{ y: -50 }} animate={{ y: 0 }} transition={{ duration: 1, delay: 0.4 }} className="absolute top-[20%] right-[15%] md:right-[25%] text-4xl md:text-6xl font-bold text-accent-cyan opacity-60 rotate-[8deg]">
               Familie
             </motion.div>
-            <motion.div initial={{ opacity: 0, x: 50 }} animate={{ opacity: 0.7, x: 0 }} transition={{ duration: 1, delay: 0.6 }} className="absolute bottom-[25%] right-[10%] md:right-[20%] text-3xl md:text-5xl font-bold text-accent-green opacity-70 rotate-[-3deg]">
+            <motion.div initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 1, delay: 0.6 }} className="absolute bottom-[25%] right-[10%] md:right-[20%] text-3xl md:text-5xl font-bold text-accent-green opacity-70 rotate-[-3deg]">
               Begleitung
             </motion.div>
-            <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 0.9, y: 0 }} transition={{ duration: 1, delay: 0.8 }} className="absolute bottom-[20%] left-[15%] md:left-[25%] text-5xl md:text-7xl font-bold text-accent-cyan opacity-90 rotate-[5deg]">
+            <motion.div initial={{ y: 50 }} animate={{ y: 0 }} transition={{ duration: 1, delay: 0.8 }} className="absolute bottom-[20%] left-[15%] md:left-[25%] text-5xl md:text-7xl font-bold text-accent-cyan opacity-90 rotate-[5deg]">
               Bau
             </motion.div>
-            <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 0.5, scale: 1 }} transition={{ duration: 1, delay: 1 }} className="absolute top-[45%] left-[5%] md:left-[10%] text-2xl md:text-4xl font-bold text-primary/30 rotate-[-15deg]">
+            <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }} transition={{ duration: 1, delay: 1 }} className="absolute top-[45%] left-[5%] md:left-[10%] text-2xl md:text-4xl font-bold text-primary/30 rotate-[-15deg]">
               Event
             </motion.div>
           </div>
 
           <div className="relative z-10 container mx-auto px-4 text-center flex flex-col items-center">
-            <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", stiffness: 260, damping: 20 }} className="w-24 h-24 bg-white rounded-full shadow-soft flex items-center justify-center mb-8 border border-primary/10">
+            <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} transition={{ type: "spring", stiffness: 260, damping: 20 }} className="w-24 h-24 bg-white rounded-full shadow-soft flex items-center justify-center mb-8 border border-primary/10">
               <Users className="w-12 h-12 text-primary" />
             </motion.div>
 
-            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-secondary mb-6 max-w-4xl leading-tight">
+            <motion.h1 initial={{ y: 20 }} animate={{ y: 0 }} transition={{ duration: 0.6 }} className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-secondary mb-6 max-w-4xl leading-tight">
               Rund um das <span className="text-primary">Haus</span>,<br />
               rund um die <span className="text-primary">Person</span>
             </motion.h1>
 
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.3 }} className="mt-8">
+            <motion.div initial={{ y: 10 }} animate={{ y: 0 }} transition={{ duration: 0.6, delay: 0.3 }} className="mt-8">
               <p className="text-xl md:text-2xl font-medium text-muted-foreground italic">
                 "Cesar Dienstleistungen, die komplett Lösung"
               </p>
