@@ -9,12 +9,12 @@ import ContactForm from '@/components/ContactForm';
 import { leistungenData } from '@/data/leistungenData';
 
 const homepageImages = [
-  "https://images.unsplash.com/photo-1600236034719-9d79b0758716",
+  "/fuersorge.png",
   "https://images.unsplash.com/photo-1672172633490-0e4280e54ab3",
   "https://images.unsplash.com/photo-1566501146550-45ff79dad920",
-  "https://images.unsplash.com/photo-1702948545240-b44e3c1b86f4",
+  "/baudienstleistungen.png",
   "https://images.unsplash.com/photo-1677981316539-d2464643b1c8",
-  "https://images.unsplash.com/photo-1670541830073-88e321d507a3",
+  "/barrierefreies-wohnen.png",
 ];
 
 export default function HomePageContent() {
