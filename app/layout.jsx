@@ -1,5 +1,5 @@
 import './globals.css';
-import { Toaster } from 'sonner';
+import Providers from '@/components/Providers';
 
 export const metadata = {
   title: 'Cesar Dienstleistungen - Die Komplettlösung',
@@ -10,8 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="de">
       <body>
-        <Toaster position="top-right" richColors />
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   );

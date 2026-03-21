@@ -4,14 +4,12 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import Header from '@/components/Header';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 
 export default function SubcategoryDetailPageContent({ category, subcategory }) {
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      <AnnouncementBar />
       <Header />
 
       <main className="flex-grow">

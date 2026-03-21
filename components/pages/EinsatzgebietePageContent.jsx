@@ -3,14 +3,12 @@
 import { motion } from 'framer-motion';
 import { MapPin, CheckCircle2 } from 'lucide-react';
 import Header from '@/components/Header';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import { leistungenData } from '@/data/leistungenData';
 
 export default function EinsatzgebietePageContent() {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
-      <AnnouncementBar />
       <Header />
 
       <main className="flex-grow py-16 md:py-24">

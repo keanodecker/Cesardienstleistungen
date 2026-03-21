@@ -87,10 +87,10 @@ export default function Footer() {
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/60">
           <p>&copy; {new Date().getFullYear()} Cesar Dienstleistungen. Alle Rechte vorbehalten.</p>
           <div className="flex items-center gap-6">
-            <Link href="#" className="hover:text-white transition-colors">
+            <Link href="/impressum" className="hover:text-white transition-colors">
               Impressum
             </Link>
-            <Link href="#" className="hover:text-white transition-colors">
+            <Link href="/datenschutz" className="hover:text-white transition-colors">
               Datenschutz
             </Link>
             <a
