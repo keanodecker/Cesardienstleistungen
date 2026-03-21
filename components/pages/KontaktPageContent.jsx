@@ -3,14 +3,12 @@
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Clock, Smartphone } from 'lucide-react';
 import Header from '@/components/Header';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 
 export default function KontaktPageContent() {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
-      <AnnouncementBar />
       <Header />
 
       <main className="flex-grow py-16 md:py-24">

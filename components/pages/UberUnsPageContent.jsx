@@ -3,13 +3,11 @@
 import { motion } from 'framer-motion';
 import { Network, ShieldCheck, Target } from 'lucide-react';
 import Header from '@/components/Header';
-import AnnouncementBar from '@/components/AnnouncementBar';
 import Footer from '@/components/Footer';
 
 export default function UberUnsPageContent() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      <AnnouncementBar />
       <Header />
 
       <main className="flex-grow">
