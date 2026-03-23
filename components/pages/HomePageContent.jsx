@@ -38,7 +38,7 @@ export default function HomePageContent() {
             <motion.div initial={{ y: 50 }} animate={{ y: 0 }} transition={{ duration: 1, delay: 0.8 }} className="absolute bottom-[20%] left-[15%] md:left-[25%] text-5xl md:text-7xl font-bold text-accent-cyan opacity-90 rotate-[5deg]">
               Bau
             </motion.div>
-            <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }} transition={{ duration: 1, delay: 1 }} className="absolute top-[45%] left-[5%] md:left-[10%] text-2xl md:text-4xl font-bold text-primary/30 rotate-[-15deg]">
+            <motion.div initial={{ scale: 0.5 }} animate={{ scale: 1 }} transition={{ duration: 1, delay: 1 }} className="absolute top-[45%] left-[5%] md:left-[10%] text-3xl md:text-5xl font-bold text-accent-cyan opacity-70 rotate-[-15deg]">
               Event
             </motion.div>
           </div>
