@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -33,10 +34,12 @@ export default function CategoryDetailPageContent({ category }) {
                 className="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-xl transition-all duration-300 border border-border/50 flex flex-col group"
               >
                 <div className="h-48 overflow-hidden">
-                  <img
+                  <Image
                     src={sub.image}
                     alt={sub.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
                 <div className="p-6 flex flex-col flex-grow">

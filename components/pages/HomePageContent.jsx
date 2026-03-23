@@ -3,18 +3,19 @@
 import { motion } from 'framer-motion';
 import { Users, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 import { leistungenData } from '@/data/leistungenData';
 
 const homepageImages = [
-  "/fuersorge.png",
+  "/fuersorge.webp",
   "https://images.unsplash.com/photo-1672172633490-0e4280e54ab3",
   "https://images.unsplash.com/photo-1566501146550-45ff79dad920",
-  "/baudienstleistungen.png",
+  "/baudienstleistungen.webp",
   "https://images.unsplash.com/photo-1677981316539-d2464643b1c8",
-  "/barrierefreies-wohnen.png",
+  "/barrierefreies-wohnen.webp",
 ];
 
 export default function HomePageContent() {
@@ -67,7 +68,7 @@ export default function HomePageContent() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
-                  <img src="https://images.unsplash.com/photo-1697638164340-6c5fc558bdf2" alt="Professionelles Team bei der Arbeit" className="object-cover w-full h-full" />
+                  <Image src="https://images.unsplash.com/photo-1697638164340-6c5fc558bdf2" alt="Professionelles Team bei der Arbeit" className="object-cover" fill sizes="(max-width: 768px) 100vw, 50vw" />
                   <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
                 </div>
               </motion.div>
@@ -114,10 +115,12 @@ export default function HomePageContent() {
                     className="group flex flex-col h-full bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-xl transition-all duration-300 border border-border/50"
                   >
                     <div className="relative h-56 overflow-hidden">
-                      <img
+                      <Image
                         src={homepageImages[index]}
                         alt={category.name}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>

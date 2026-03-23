@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -54,10 +55,12 @@ export default function SubcategoryDetailPageContent({ category, subcategory }) 
                 viewport={{ once: true }}
                 className="rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]"
               >
-                <img
+                <Image
                   src={subcategory.image}
                   alt={subcategory.name}
-                  className="w-full h-full object-cover"
+                  className="object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </motion.div>
 

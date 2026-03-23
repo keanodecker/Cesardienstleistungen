@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { Network, ShieldCheck, Target } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -61,10 +62,12 @@ export default function UberUnsPageContent() {
                 viewport={{ once: true }}
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1551135049-8a33b5883817"
                     alt="Professionelles Meeting und Planung"
-                    className="object-cover w-full h-full"
+                    className="object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-tr from-secondary/40 to-transparent"></div>
                 </div>
