@@ -63,10 +63,10 @@ export default function HomePageContent() {
 
             {/* Mobile: Leistungen als Chips anzeigen */}
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.5 }} className="flex md:hidden flex-wrap justify-center gap-2 mt-8">
-              {['Fürsorge', 'Familie', 'Begleitung', 'Bau', 'Event'].map((label) => (
-                <span key={label} className="px-4 py-1.5 rounded-full bg-white border border-primary/20 text-primary text-sm font-semibold shadow-sm">
-                  {label}
-                </span>
+              {leistungenData.map((category) => (
+                <Link key={category.slug} href={`/leistungen/${category.slug}`} className="px-4 py-1.5 rounded-full bg-white border border-primary/20 text-primary text-sm font-semibold shadow-sm active:bg-primary active:text-white transition-colors">
+                  {category.name}
+                </Link>
               ))}
             </motion.div>
           </div>
