@@ -53,7 +53,7 @@ export default function SubcategoryDetailPageContent({ category, subcategory }) 
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]"
+                className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]"
               >
                 <Image
                   src={subcategory.image}
