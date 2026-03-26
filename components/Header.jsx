@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { ChevronDown, ChevronRight, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -37,10 +38,13 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
-            <img
+            <Image
               src="https://horizons-cdn.hostinger.com/c0101c4c-a452-428d-a7b1-5648caf1c648/f70331c6ed3d9400902b37e46b12a4c6.png"
               alt="Cesar Dienstleistungen Logo"
+              width={160}
+              height={80}
               className="h-16 md:h-20 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+              priority
             />
           </Link>
 
