@@ -63,7 +63,7 @@ export default function UberUnsPageContent() {
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
                   <Image
-                    src="https://images.unsplash.com/photo-1551135049-8a33b5883817"
+                    src="https://images.unsplash.com/photo-1551135049-8a33b5883817?auto=format&fit=crop&w=800&q=80"
                     alt="Professionelles Meeting und Planung"
                     className="object-cover"
                     fill

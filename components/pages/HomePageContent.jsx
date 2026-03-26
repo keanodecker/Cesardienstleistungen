@@ -11,10 +11,10 @@ import { leistungenData } from '@/data/leistungenData';
 
 const homepageImages = [
   "/fuersorge.webp",
-  "https://images.unsplash.com/photo-1672172633490-0e4280e54ab3",
-  "https://images.unsplash.com/photo-1566501146550-45ff79dad920",
+  "https://images.unsplash.com/photo-1672172633490-0e4280e54ab3?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1566501146550-45ff79dad920?auto=format&fit=crop&w=800&q=80",
   "/baudienstleistungen.webp",
-  "https://images.unsplash.com/photo-1677981316539-d2464643b1c8",
+  "https://images.unsplash.com/photo-1677981316539-d2464643b1c8?auto=format&fit=crop&w=800&q=80",
 ];
 
 export default function HomePageContent() {
@@ -77,7 +77,7 @@ export default function HomePageContent() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
-                  <Image src="https://images.unsplash.com/photo-1697638164340-6c5fc558bdf2" alt="Professionelles Team bei der Arbeit" className="object-cover" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                  <Image src="https://images.unsplash.com/photo-1697638164340-6c5fc558bdf2?auto=format&fit=crop&w=800&q=80" alt="Professionelles Team bei der Arbeit" className="object-cover" fill sizes="(max-width: 768px) 100vw, 50vw" />
                   <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
                 </div>
               </motion.div>
