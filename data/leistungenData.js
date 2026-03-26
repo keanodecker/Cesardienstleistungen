@@ -145,6 +145,12 @@ export const leistungenData = [
         name: 'Umzüge & Entrümpelung',
         description: 'Schnell, sauber und stressfrei. Wir übernehmen die schwere Arbeit bei Wohnungswechsel, Haushaltsauflösung oder Eilräumung.',
         image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c'
+      },
+      {
+        slug: 'alters-barrierefreies-wohnen',
+        name: 'Alters- & barrierefreies Wohnen',
+        description: 'Wir passen Ihren Wohnraum an Ihre Bedürfnisse an – für mehr Sicherheit und Komfort. Barrierefreie Bäder, Rampen, Handläufe, Treppenlifte und rollstuhlgerechte Anpassungen aus einer Hand.',
+        image: '/barrierefreies-wohnen.webp'
       }
     ]
   },
@@ -182,38 +188,4 @@ export const leistungenData = [
       }
     ]
   },
-  {
-    id: 'alters-barrierefreies-wohnen',
-    slug: 'alters-barrierefreies-wohnen',
-    name: 'Alters- & barrierefreies Wohnen',
-    description: 'Wir passen Ihren Wohnraum an Ihre Bedürfnisse an, für mehr Sicherheit und Komfort in den eigenen vier Wänden.',
-    image: 'https://images.unsplash.com/photo-1670541830073-88e321d507a3',
-    applicationAreas: [
-      'Seniorengerechter Umbau',
-      'Rollstuhlgerechte Anpassungen',
-      'Sturzprävention im Haushalt',
-      'Barrierefreie Außenanlagen',
-      'Pflegegerechte Badezimmer'
-    ],
-    subcategories: [
-      {
-        slug: 'baeder',
-        name: 'Bäder',
-        description: 'Umbau zu barrierefreien Badezimmern mit bodengleichen Duschen, Haltegriffen und rutschfesten Böden für maximale Sicherheit.',
-        image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a'
-      },
-      {
-        slug: 'stufen-treppen',
-        name: 'Stufen & Treppen',
-        description: 'Entschärfung von Stolperfallen, Installation von Handläufen, Rampen oder Treppenliften zur sicheren Überwindung von Höhenunterschieden.',
-        image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f'
-      },
-      {
-        slug: 'rollstuhlgerecht-terrassen',
-        name: 'Rollstuhlgerecht & Terrassen',
-        description: 'Verbreiterung von Türen, Schwellenabbau und die barrierefreie Gestaltung von Terrassen und Außenbereichen für uneingeschränkte Mobilität.',
-        image: 'https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc'
-      }
-    ]
-  }
 ];
