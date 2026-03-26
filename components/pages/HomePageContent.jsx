@@ -15,7 +15,6 @@ const homepageImages = [
   "https://images.unsplash.com/photo-1566501146550-45ff79dad920",
   "/baudienstleistungen.webp",
   "https://images.unsplash.com/photo-1677981316539-d2464643b1c8",
-  "/barrierefreies-wohnen.webp",
 ];
 
 export default function HomePageContent() {
