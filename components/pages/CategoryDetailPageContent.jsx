@@ -33,7 +33,7 @@ export default function CategoryDetailPageContent({ category }) {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-xl transition-all duration-300 border border-border/50 flex flex-col group"
               >
-                <div className="h-48 overflow-hidden">
+                <div className="relative h-48 overflow-hidden">
                   <Image
                     src={sub.image}
                     alt={sub.name}
