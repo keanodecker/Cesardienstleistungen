@@ -30,7 +30,7 @@ export const leistungenData = [
         slug: 'reinigungen-besorgungen',
         name: 'Reinigungen & Besorgungen',
         description: 'Wir übernehmen den wöchentlichen Einkauf, Apothekenbesuche und sorgen für ein sauberes, gepflegtes Zuhause, in dem Sie sich wohlfühlen.',
-        image: 'https://images.unsplash.com/photo-1584820927498-cafeff720485?auto=format&fit=crop&w=800&q=80'
+        image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=800&q=80'
       }
     ]
   },
