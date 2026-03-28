@@ -110,7 +110,7 @@ export default function HomePageContent() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="flex flex-wrap justify-center gap-8">
               {leistungenData.map((category, index) => (
                 <motion.div
                   key={category.id}
@@ -118,6 +118,7 @@ export default function HomePageContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="w-full md:w-[calc(33.333%-1.4rem)]"
                 >
                   <Link
                     href={`/leistungen/${category.slug}`}
