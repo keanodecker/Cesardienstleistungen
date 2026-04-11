@@ -24,17 +24,17 @@ export default function ContactForm() {
     setIsSubmitting(true);
 
     try {
-      const formData = new FormData();
-      formData.append('name', data.name);
-      formData.append('email', data.email);
-      formData.append('phone', data.phone);
-      formData.append('service', selectedService);
-      formData.append('message', data.message);
+      const params = new URLSearchParams();
+      params.append('name', data.name);
+      params.append('email', data.email);
+      params.append('phone', data.phone);
+      params.append('service', selectedService);
+      params.append('message', data.message);
 
       const response = await fetch('https://formie.io/form/21fa2eff-b708-40ac-9794-3d0b936c6502', {
         method: 'POST',
-        body: formData,
-        headers: { Accept: 'application/json' },
+        body: params,
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded', Accept: 'application/json' },
       });
 
       if (!response.ok) {
