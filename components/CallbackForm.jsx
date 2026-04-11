@@ -15,14 +15,20 @@ export default function CallbackForm() {
     setIsSubmitting(true);
 
     try {
-      const submissions = JSON.parse(localStorage.getItem('callbackSubmissions') || '[]');
-      const newSubmission = {
-        ...data,
-        timestamp: new Date().toISOString(),
-        type: 'callback',
-      };
-      submissions.push(newSubmission);
-      localStorage.setItem('callbackSubmissions', JSON.stringify(submissions));
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'callback',
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Übertragung fehlgeschlagen');
+      }
 
       toast.success('Vielen Dank! Wir melden uns in Kürze bei Ihnen.');
       reset();
