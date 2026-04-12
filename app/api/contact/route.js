@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const TO_EMAIL = 'info@keanodecker.com';
+const TO_EMAIL = ['info@keanodecker.com', 'mail@cesardienstleistungen.de'];
 const FROM_EMAIL = 'Cesar Dienstleistungen <noreply@cesardienstleistungen.de>';
 
 export async function POST(request) {
