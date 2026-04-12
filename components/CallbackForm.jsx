@@ -26,8 +26,9 @@ export default function CallbackForm() {
         }),
       });
 
+      const result = await response.json();
       if (!response.ok) {
-        throw new Error('Übertragung fehlgeschlagen');
+        throw new Error(result.error || 'Übertragung fehlgeschlagen');
       }
 
       toast.success('Vielen Dank! Wir melden uns in Kürze bei Ihnen.');
