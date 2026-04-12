@@ -1,11 +1,11 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 const TO_EMAIL = 'info@keanodecker.com';
 const FROM_EMAIL = 'Cesar Dienstleistungen <noreply@cesardienstleistungen.de>';
 
 export async function POST(request) {
+  const resend = new Resend(process.env.RESEND_API_KEY);
   try {
     const body = await request.json();
     const { type, name, email, phone, service, message } = body;
