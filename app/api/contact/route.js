@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const TO_EMAIL = 'info@keanodecker.com';
-const FROM_EMAIL = 'Cesar Dienstleistungen <noreply@keanodecker.com>';
+const FROM_EMAIL = 'Cesar Dienstleistungen <noreply@cesardienstleistungen.de>';
 
 export async function POST(request) {
   try {
