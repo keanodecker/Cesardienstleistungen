@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+import { Users, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Header from '@/components/Header';
@@ -45,15 +45,8 @@ export default function HomePageContent() {
           </div>
 
           <div className="relative z-10 container mx-auto px-6 text-center flex flex-col items-center">
-            <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} transition={{ type: "spring", stiffness: 260, damping: 20 }} className="mb-6 md:mb-8">
-              <Image
-                src="/logos/logo.png"
-                alt="Cesar Dienstleistungen Logo"
-                width={160}
-                height={80}
-                className="h-20 md:h-28 w-auto object-contain"
-                priority
-              />
+            <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} transition={{ type: "spring", stiffness: 260, damping: 20 }} className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-full shadow-soft flex items-center justify-center mb-6 md:mb-8 border border-primary/10">
+              <Users className="w-10 h-10 md:w-12 md:h-12 text-primary" />
             </motion.div>
 
             <motion.h1 initial={{ y: 20 }} animate={{ y: 0 }} transition={{ duration: 0.6 }} className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-secondary mb-4 md:mb-6 max-w-4xl leading-tight">
