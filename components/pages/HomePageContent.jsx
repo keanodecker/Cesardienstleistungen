@@ -47,7 +47,7 @@ export default function HomePageContent() {
           <div className="relative z-10 container mx-auto px-6 text-center flex flex-col items-center">
             <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} transition={{ type: "spring", stiffness: 260, damping: 20 }} className="mb-6 md:mb-8">
               <Image
-                src="https://horizons-cdn.hostinger.com/c0101c4c-a452-428d-a7b1-5648caf1c648/f70331c6ed3d9400902b37e46b12a4c6.png"
+                src="/logo.png"
                 alt="Cesar Dienstleistungen Logo"
                 width={160}
                 height={80}

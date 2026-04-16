@@ -39,7 +39,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
             <Image
-              src="https://horizons-cdn.hostinger.com/c0101c4c-a452-428d-a7b1-5648caf1c648/f70331c6ed3d9400902b37e46b12a4c6.png"
+              src="/logo.png"
               alt="Cesar Dienstleistungen Logo"
               width={160}
               height={80}
