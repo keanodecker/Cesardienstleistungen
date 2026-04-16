@@ -21,7 +21,7 @@ export default function ImpressumPageContent() {
               <section>
                 <h2 className="text-2xl font-bold text-secondary mb-4">Angaben gemäß § 5 TMG</h2>
                 <div className="text-muted-foreground space-y-1">
-                  <p className="font-semibold text-secondary">Cesar Dienstleistungen</p>
+                  <p className="font-semibold text-secondary">Cesarsicherheit und Dienstleistungs GmbH</p>
                   <p>Sezer Ülker</p>
                   <p>Doler Platz 3</p>
                   <p>77933 Lahr/Schwarzwald</p>

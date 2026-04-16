@@ -75,7 +75,7 @@ export default function DatenschutzPageContent() {
                 <h2 className="text-2xl font-bold text-secondary mb-4">3. Hinweis zur verantwortlichen Stelle</h2>
                 <div className="text-muted-foreground space-y-2">
                   <p className="leading-relaxed mb-4">Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
-                  <p className="font-semibold text-secondary">Cesar Dienstleistungen</p>
+                  <p className="font-semibold text-secondary">Cesarsicherheit und Dienstleistungs GmbH</p>
                   <p>Sezer Ülker</p>
                   <p>Doler Platz 3</p>
                   <p>77933 Lahr/Schwarzwald</p>
@@ -154,6 +154,22 @@ export default function DatenschutzPageContent() {
                   </p>
                   <p className="leading-relaxed">
                     Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.
+                  </p>
+                </div>
+              </section>
+
+              {/* 7. E-Mail-Versand über Resend */}
+              <section>
+                <h2 className="text-2xl font-bold text-secondary mb-4">7. E-Mail-Versand über Resend</h2>
+                <div className="space-y-4 text-muted-foreground">
+                  <p className="leading-relaxed">
+                    Für den Versand von E-Mails über unser Kontaktformular nutzen wir den Dienst Resend (Resend Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA). Wenn Sie das Kontaktformular absenden, werden Ihre eingegebenen Daten (Name, E-Mail-Adresse, Telefonnummer sowie Ihre Nachricht) zur Übermittlung an uns über die Server von Resend geleitet.
+                  </p>
+                  <p className="leading-relaxed">
+                    Die Nutzung von Resend erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem zuverlässigen E-Mail-Versand). Mit Resend wurde ein Auftragsverarbeitungsvertrag abgeschlossen. Weitere Informationen finden Sie in der Datenschutzerklärung von Resend:{' '}
+                    <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                      https://resend.com/legal/privacy-policy
+                    </a>.
                   </p>
                 </div>
               </section>
