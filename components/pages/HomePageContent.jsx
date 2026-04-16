@@ -47,7 +47,7 @@ export default function HomePageContent() {
           <div className="relative z-10 container mx-auto px-6 text-center flex flex-col items-center">
             <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} transition={{ type: "spring", stiffness: 260, damping: 20 }} className="mb-6 md:mb-8">
               <Image
-                src="/logo.png"
+                src="/logos/logo.png"
                 alt="Cesar Dienstleistungen Logo"
                 width={160}
                 height={80}
