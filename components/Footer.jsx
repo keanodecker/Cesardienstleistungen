@@ -94,7 +94,7 @@ export default function Footer() {
               Datenschutz
             </Link>
             <a
-              href="https://cesar-sicherheit.de"
+              href="https://cesarsicherheit.de"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-white transition-colors font-medium"
