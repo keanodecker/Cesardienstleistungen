@@ -93,6 +93,12 @@ export default function Footer() {
             <Link href="/datenschutz" className="hover:text-white transition-colors">
               Datenschutz
             </Link>
+            <button
+              onClick={() => window.dispatchEvent(new CustomEvent('openCookieSettings'))}
+              className="hover:text-white transition-colors"
+            >
+              Cookie-Einstellungen
+            </button>
             <a
               href="https://cesarsicherheit.de"
               target="_blank"

@@ -1,5 +1,6 @@
 import './globals.css';
 import Providers from '@/components/Providers';
+import CookieBanner from '@/components/CookieBanner';
 
 export const metadata = {
   title: 'Cesar Dienstleistungen - Die Komplettlösung',
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         <Providers>
           {children}
         </Providers>
+        <CookieBanner />
       </body>
     </html>
   );

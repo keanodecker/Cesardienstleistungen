@@ -158,9 +158,40 @@ export default function DatenschutzPageContent() {
                 </div>
               </section>
 
-              {/* 7. E-Mail-Versand über Resend */}
+              {/* 7. Cookies */}
               <section>
-                <h2 className="text-2xl font-bold text-secondary mb-4">7. E-Mail-Versand über Resend</h2>
+                <h2 className="text-2xl font-bold text-secondary mb-4">7. Cookies</h2>
+                <div className="space-y-4 text-muted-foreground">
+                  <p className="leading-relaxed">
+                    Unsere Website verwendet Cookies. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden. Wir unterscheiden folgende Kategorien:
+                  </p>
+                  <div className="space-y-3">
+                    <div className="p-4 bg-slate-50 rounded-xl">
+                      <p className="font-semibold text-secondary mb-1">Notwendige Cookies</p>
+                      <p className="text-sm leading-relaxed">Diese Cookies sind für den technischen Betrieb der Website erforderlich. Dazu gehört z.B. die Speicherung Ihrer Cookie-Einwilligung (LocalStorage-Key: <code className="bg-slate-200 px-1 rounded text-xs">cookieConsent</code>). Sie werden ohne Ihre Einwilligung gesetzt, da sie für die Grundfunktion der Website unerlässlich sind (Art. 6 Abs. 1 lit. f DSGVO).</p>
+                    </div>
+                    <div className="p-4 bg-slate-50 rounded-xl">
+                      <p className="font-semibold text-secondary mb-1">Funktionale Cookies</p>
+                      <p className="text-sm leading-relaxed">Diese Cookies ermöglichen erweiterte Funktionen und Personalisierungen. Sie werden nur mit Ihrer Einwilligung gesetzt (Art. 6 Abs. 1 lit. a DSGVO). Aktuell setzen wir keine funktionalen Cookies ein.</p>
+                    </div>
+                    <div className="p-4 bg-slate-50 rounded-xl">
+                      <p className="font-semibold text-secondary mb-1">Analyse-Cookies</p>
+                      <p className="text-sm leading-relaxed">Analyse-Cookies helfen uns zu verstehen, wie Besucher mit der Website interagieren. <strong>Aktuell setzen wir keine Analyse-Cookies ein.</strong> Sollte sich dies ändern, werden wir Sie vorab um Ihre Einwilligung bitten.</p>
+                    </div>
+                    <div className="p-4 bg-slate-50 rounded-xl">
+                      <p className="font-semibold text-secondary mb-1">Marketing-Cookies</p>
+                      <p className="text-sm leading-relaxed">Marketing-Cookies werden für personalisierte Werbung verwendet. <strong>Aktuell setzen wir keine Marketing-Cookies ein.</strong> Sollte sich dies ändern, werden wir Sie vorab um Ihre Einwilligung bitten.</p>
+                    </div>
+                  </div>
+                  <p className="leading-relaxed">
+                    <strong className="text-secondary">Einwilligung widerrufen:</strong> Sie können Ihre Cookie-Einstellungen jederzeit über den Link „Cookie-Einstellungen" im Footer der Website anpassen oder widerrufen. Alternativ können Sie Ihre Einwilligung löschen, indem Sie den Eintrag <code className="bg-slate-200 px-1 rounded text-xs">cookieConsent</code> in den LocalStorage-Einstellungen Ihres Browsers entfernen.
+                  </p>
+                </div>
+              </section>
+
+              {/* 8. E-Mail-Versand über Resend */}
+              <section>
+                <h2 className="text-2xl font-bold text-secondary mb-4">8. E-Mail-Versand über Resend</h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p className="leading-relaxed">
                     Für den Versand von E-Mails über unser Kontaktformular nutzen wir den Dienst Resend (Resend Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA). Wenn Sie das Kontaktformular absenden, werden Ihre eingegebenen Daten (Name, E-Mail-Adresse, Telefonnummer sowie Ihre Nachricht) zur Übermittlung an uns über die Server von Resend geleitet.
