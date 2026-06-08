@@ -18,12 +18,12 @@ export const leistungenData = [
         slug: 'regelmaessiger-besuch',
         name: 'Regelmäßiger Besuch & nach dem Rechten schauen',
         description: 'Wir besuchen Sie oder Ihre Angehörigen regelmäßig, leisten Gesellschaft und stellen sicher, dass alles in Ordnung ist. Dies gibt Sicherheit und beugt Einsamkeit vor.',
-        image: 'https://images.unsplash.com/photo-1576765607924-3f7b8410a787?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=800&q=80',
         layoutType: 'emotional',
         callout: 'Regelmäßige Besuche geben Sicherheit – für Sie und für Ihre Familie.',
         extraImages: [
-          'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1559127544-3c7ac7e8e3e8?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1517677208171-0bc6132f1a26?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
@@ -43,7 +43,6 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Haushaltsorganisation', text: 'Koordination aller anfallenden Aufgaben im und ums Haus.' },
@@ -60,7 +59,7 @@ export const leistungenData = [
         layoutType: 'emotional',
         callout: 'Ein gepflegtes Zuhause ist mehr als Sauberkeit – es ist Lebensqualität.',
         extraImages: [
-          'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=800&q=80',
         ],
@@ -96,7 +95,7 @@ export const leistungenData = [
         callout: 'Ein Nachlass ist mehr als Papier – wir behandeln ihn mit der nötigen Würde.',
         extraImages: [
           'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1521791055366-0d553381ad47?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
@@ -114,10 +113,10 @@ export const leistungenData = [
         layoutType: 'sensitive',
         callout: 'In den schwersten Momenten des Lebens müssen Sie nicht alleine stark sein.',
         extraImages: [
-          'https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1520637836862-4d197d17c93a?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1524575708161-f1eedf8c83e6?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1475483768296-4a674da40d5e?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Einfühlsame Begleitung', text: 'Wir sind an Ihrer Seite – menschlich, diskret und professionell.' },
@@ -203,7 +202,7 @@ export const leistungenData = [
         slug: 'fahrservice',
         name: 'Fahrservice',
         description: 'Zuverlässiger und komfortabler Transport zu Ärzten, Therapien oder privaten Verabredungen – inklusive persönlicher Begleitung bis zur Tür.',
-        image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1552519507-da3b142351b5?auto=format&fit=crop&w=800&q=80',
         layoutType: 'practical',
         callout: 'Pünktlich, sicher, persönlich – nicht nur ein Fahrdienst.',
         extraImages: [
@@ -262,7 +261,7 @@ export const leistungenData = [
         callout: 'Aus alt mach neu – mit Qualität, die bleibt.',
         extraImages: [
           'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1503594384566-461fe158e797?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
@@ -318,9 +317,9 @@ export const leistungenData = [
         layoutType: 'practical',
         callout: 'Ihr Umzug ohne Stress – wir tragen die Last.',
         extraImages: [
-          'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1527515637462-cff94aca55fc?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Umzugsplanung', text: 'Zeitplan, Materialien, Fahrzeuge – wir organisieren alles im Voraus.' },
@@ -333,13 +332,13 @@ export const leistungenData = [
         slug: 'alters-barrierefreies-wohnen',
         name: 'Alters- & barrierefreies Wohnen',
         description: 'Wir passen Ihren Wohnraum an Ihre Bedürfnisse an – für mehr Sicherheit und Komfort. Barrierefreie Bäder, Rampen, Handläufe, Treppenlifte und rollstuhlgerechte Anpassungen aus einer Hand.',
-        image: '/barrierefreies-wohnen.webp',
+        image: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80',
         layoutType: 'emotional',
         callout: 'Ihr Zuhause soll sicher bleiben – ein Leben lang.',
         extraImages: [
-          'https://images.unsplash.com/photo-1576765607924-3f7b8410a787?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Barrierefreies Bad', text: 'Bodengleiche Dusche, Haltegriffe, erhöhte WC-Sitze – sicher und komfortabel.' },
