@@ -176,11 +176,11 @@ function EmotionalLayout({ category, subcategory }) {
         </section>
       )}
 
-      {/* Extrabilder */}
+      {/* Extrabilder – sauberes Raster */}
       {subcategory.extraImages?.length > 0 && (
         <section className="py-16 bg-slate-50">
           <div className="container mx-auto px-4">
-            <div className="flex flex-col md:flex-row gap-4 max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
               {subcategory.extraImages.map((src, i) => (
                 <motion.div
                   key={i}
@@ -188,10 +188,11 @@ function EmotionalLayout({ category, subcategory }) {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.12 }}
-                  className={`relative overflow-hidden rounded-2xl shadow-soft flex-1 ${i === 0 ? 'aspect-[4/3] md:aspect-auto md:flex-[2]' : 'aspect-[4/3]'}`}
-                  style={{ minHeight: '220px' }}
+                  className={`relative aspect-[4/3] overflow-hidden rounded-2xl shadow-soft ${
+                    subcategory.extraImages.length % 2 !== 0 && i === 0 ? 'col-span-2 md:col-span-1' : ''
+                  }`}
                 >
-                  <Image src={src} alt={subcategory.name} fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
+                  <Image src={src} alt={subcategory.name} fill className="object-cover" sizes="(max-width: 768px) 50vw, 33vw" />
                 </motion.div>
               ))}
             </div>
@@ -302,34 +303,47 @@ function PracticalLayout({ category, subcategory }) {
 function ActiveLayout({ category, subcategory }) {
   return (
     <>
-      {/* Full-bleed Hero */}
-      <section className="relative min-h-[55vh] flex items-end bg-secondary overflow-hidden">
-        {subcategory.image && (
-          <Image src={subcategory.image} alt={subcategory.name} fill className="object-cover opacity-50" sizes="100vw" priority />
-        )}
-        <div className="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/40 to-transparent" />
-        <div className="container mx-auto px-4 relative z-10 pb-12">
-          <Link href={`/leistungen/${category.slug}`} className="inline-flex items-center text-sm font-medium text-white/70 hover:text-white transition-colors mb-6">
+      {/* Heller Hero: zentrierter Text + breites Bild im Card */}
+      <section className="relative pt-16 pb-0 bg-slate-50 border-b border-border/30">
+        <div className="container mx-auto px-4">
+          <Link href={`/leistungen/${category.slug}`} className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-primary transition-colors mb-8">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Zurück zu {category.name}
           </Link>
-          <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-primary text-sm font-semibold uppercase tracking-widest mb-3 block">
-            {category.name}
-          </motion.span>
-          <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight max-w-3xl">
-            {subcategory.name}
-          </motion.h1>
-          <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="text-lg text-white/80 mt-4 max-w-2xl leading-relaxed">
-            {subcategory.description}
-          </motion.p>
+          <div className="max-w-3xl mx-auto text-center">
+            <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-primary text-sm font-semibold uppercase tracking-widest mb-3 block">
+              {category.name}
+            </motion.span>
+            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary leading-tight">
+              {subcategory.name}
+            </motion.h1>
+            {/* dünner blauer Akzent-Balken */}
+            <div className="w-16 h-1 bg-primary rounded-full mx-auto my-6" />
+            <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="text-lg text-muted-foreground leading-relaxed">
+              {subcategory.description}
+            </motion.p>
+          </div>
         </div>
+        {/* breites Hero-Bild, halb über den Abschnitt hinausragend */}
+        {subcategory.image && (
+          <div className="container mx-auto px-4 mt-12">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="relative w-full max-w-5xl mx-auto aspect-[16/7] rounded-2xl overflow-hidden shadow-2xl translate-y-12"
+            >
+              <Image src={subcategory.image} alt={subcategory.name} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 1024px" priority />
+            </motion.div>
+          </div>
+        )}
       </section>
 
-      {/* Callout */}
+      {/* Callout – heller Akzent statt Vollfläche */}
       {subcategory.callout && (
-        <section className="py-14 bg-primary">
+        <section className="pt-28 pb-16 bg-white">
           <div className="container mx-auto px-4 text-center">
-            <p className="text-2xl md:text-3xl font-bold text-white max-w-3xl mx-auto leading-relaxed">
+            <p className="text-2xl md:text-3xl font-bold text-secondary max-w-3xl mx-auto leading-relaxed">
               {subcategory.callout}
             </p>
           </div>
@@ -338,7 +352,7 @@ function ActiveLayout({ category, subcategory }) {
 
       {/* Feature Cards */}
       {subcategory.highlights?.length > 0 && (
-        <section className="py-20 bg-white">
+        <section className="pb-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 max-w-5xl mx-auto">
               {subcategory.highlights.map((h, i) => (
@@ -360,21 +374,23 @@ function ActiveLayout({ category, subcategory }) {
         </section>
       )}
 
-      {/* Horizontale Bildleiste */}
+      {/* Bildgalerie – sauberes Raster, kein Swipe */}
       {subcategory.extraImages?.length > 0 && (
         <section className="py-16 bg-slate-50">
           <div className="container mx-auto px-4">
-            <div className="flex gap-4 overflow-x-auto pb-2 max-w-5xl mx-auto snap-x snap-mandatory">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
               {subcategory.extraImages.map((src, i) => (
                 <motion.div
                   key={i}
-                  initial={{ opacity: 0, x: 20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, scale: 0.97 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.1 }}
-                  className="relative flex-shrink-0 w-72 md:w-96 aspect-[4/3] rounded-2xl overflow-hidden shadow-soft snap-start"
+                  className={`relative aspect-[4/3] rounded-2xl overflow-hidden shadow-soft ${
+                    subcategory.extraImages.length % 2 !== 0 && i === 0 ? 'col-span-2 md:col-span-1' : ''
+                  }`}
                 >
-                  <Image src={src} alt={subcategory.name} fill className="object-cover" sizes="384px" />
+                  <Image src={src} alt={subcategory.name} fill className="object-cover" sizes="(max-width: 768px) 50vw, 33vw" />
                 </motion.div>
               ))}
             </div>

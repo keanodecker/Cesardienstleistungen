@@ -43,6 +43,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Haushaltsorganisation', text: 'Koordination aller anfallenden Aufgaben im und ums Haus.' },
@@ -61,6 +62,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Wöchentlicher Einkauf', text: 'Einkaufsliste aufnehmen, einkaufen, liefern und einräumen – alles aus einer Hand.' },
@@ -95,6 +97,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1521791055366-0d553381ad47?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Sichtung & Inventar', text: 'Systematische Erfassung aller Gegenstände, Dokumente und Wertgegenstände.' },
@@ -107,14 +110,14 @@ export const leistungenData = [
         slug: 'trauerfall-beerdigung',
         name: 'Begleitung im Trauerfall & Beerdigungsorganisation',
         description: 'In den schwersten Momenten nehmen wir Ihnen organisatorische Lasten ab, koordinieren Termine und begleiten Sie professionell durch diese schwere Zeit.',
-        image: null,
+        image: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=800&q=80',
         layoutType: 'sensitive',
         callout: 'In den schwersten Momenten des Lebens müssen Sie nicht alleine stark sein.',
         extraImages: [
           'https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1520637836862-4d197d17c93a?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Einfühlsame Begleitung', text: 'Wir sind an Ihrer Seite – menschlich, diskret und professionell.' },
@@ -133,6 +136,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1543165796-5426273eaab3?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Regelmäßige Besuche', text: 'Wir besuchen Ihre Angehörigen nach einem festen Rhythmus – verlässlich und persönlich.' },
@@ -185,7 +189,7 @@ export const leistungenData = [
         callout: 'Verreisen ohne Sorgen – wir sind an Ihrer Seite, von der Planung bis zur Heimkehr.',
         extraImages: [
           'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
@@ -205,6 +209,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Abholung von zu Hause', text: 'Wir kommen pünktlich zu Ihnen – von der Haustür bis zum Zielort.' },
@@ -258,6 +263,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1503594384566-461fe158e797?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Bad- & Küchensanierung', text: 'Vollständige Erneuerung inklusive Fliesen, Installationen und Einbauten.' },
@@ -276,6 +282,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Parkett & Laminat', text: 'Verlegung von Massivparkett, Laminat und Vinyl – sauber und termingerecht.' },
@@ -294,6 +301,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Treppenaufarbeitung', text: 'Schleifen, Lackieren, neue Stufen – Holztreppen wie neu in wenigen Tagen.' },
@@ -312,6 +320,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1527515637462-cff94aca55fc?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Umzugsplanung', text: 'Zeitplan, Materialien, Fahrzeuge – wir organisieren alles im Voraus.' },
@@ -330,6 +339,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1576765607924-3f7b8410a787?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Barrierefreies Bad', text: 'Bodengleiche Dusche, Haltegriffe, erhöhte WC-Sitze – sicher und komfortabel.' },
@@ -358,12 +368,13 @@ export const leistungenData = [
         slug: 'auf-abbau',
         name: 'Auf- & Abbau',
         description: 'Zuverlässiger Auf- und Abbau von Event-Infrastruktur, Bühnen, Bestuhlung und Dekoration. Wir sorgen dafür, dass alles rechtzeitig bereitsteht.',
-        image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
         layoutType: 'active',
         callout: 'Wenn der Vorhang aufgeht, ist alles bereit.',
         extraImages: [
           'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Pünktlicher Aufbau', text: 'Zuverlässige Lieferung und Montage – Ihr Event startet ohne Stress.' },
@@ -382,6 +393,7 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Empfang & Einlass', text: 'Freundliche Begrüßung, Garderobe und Check-in – der erste Eindruck zählt.' },
@@ -394,12 +406,13 @@ export const leistungenData = [
         slug: 'planung',
         name: 'Planung',
         description: 'Unterstützung bei der Konzeption und Logistik Ihres Events. Wir bringen Struktur in Ihre Ideen und koordinieren die Umsetzung.',
-        image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80',
         layoutType: 'active',
         callout: 'Ihre Idee. Unser Plan. Ihr Erfolg.',
         extraImages: [
           'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Konzept & Briefing', text: 'Wir erfassen Ihre Wünsche, das Budget und die Rahmenbedingungen – dann entwickeln wir ein Konzept.' },
