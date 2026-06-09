@@ -75,14 +75,14 @@ export default function HomePageContent() {
         <section className="py-24 bg-slate-50">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
+              <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "200px" }}>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
-                  <Image src="https://images.unsplash.com/photo-1697638164340-6c5fc558bdf2?auto=format&fit=crop&w=800&q=80" alt="Professionelles Team bei der Arbeit" className="object-cover" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                  <Image src="https://images.unsplash.com/photo-oiqFyLx_KDU?auto=format&fit=crop&w=800&q=80" alt="Team bespricht Kundenprojekt gemeinsam" className="object-cover" fill sizes="(max-width: 768px) 100vw, 50vw" />
                   <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
                 </div>
               </motion.div>
 
-              <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="space-y-6">
+              <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "200px" }} className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-secondary">
                   Alles aus einer Hand
                 </h2>
@@ -116,8 +116,8 @@ export default function HomePageContent() {
                   key={category.id}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  viewport={{ once: true, margin: "200px" }}
+                  transition={{ duration: 0.5, delay: index * 0.05 }}
                   className="w-full md:w-[calc(33.333%-1.4rem)]"
                 >
                   <Link
@@ -168,7 +168,7 @@ export default function HomePageContent() {
               </p>
             </div>
 
-            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "200px" }}>
               <ContactForm />
             </motion.div>
           </div>
