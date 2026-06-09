@@ -112,8 +112,8 @@ export const leistungenData = [
         layoutType: 'sensitive',
         callout: 'In den schwersten Momenten des Lebens müssen Sie nicht alleine stark sein.',
         extraImages: [
-          'https://images.unsplash.com/photo-1524575708161-f1eedf8c83e6?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1475483768296-4a674da40d5e?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-UrAKbpKnak8?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-4KFp5QJIGyA?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
         ],
