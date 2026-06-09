@@ -21,11 +21,7 @@ export const leistungenData = [
         image: 'https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=800&q=80',
         layoutType: 'emotional',
         callout: 'Regelmäßige Besuche geben Sicherheit – für Sie und für Ihre Familie.',
-        extraImages: [
-          'https://images.unsplash.com/photo-1559127544-3c7ac7e8e3e8?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1517677208171-0bc6132f1a26?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&w=800&q=80',
-        ],
+        extraImages: [],
         highlights: [
           { title: 'Feste Besuchszeiten', text: 'Verlässliche Termine, die sich nach Ihren Wünschen richten – täglich, wöchentlich oder nach Bedarf.' },
           { title: 'Gesellschaft & Gespräch', text: 'Wir sind da – zum Reden, Zuhören und einfach um gemeinsam Zeit zu verbringen.' },
@@ -112,8 +108,6 @@ export const leistungenData = [
         layoutType: 'sensitive',
         callout: 'In den schwersten Momenten des Lebens müssen Sie nicht alleine stark sein.',
         extraImages: [
-          'https://images.unsplash.com/photo-UrAKbpKnak8?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-4KFp5QJIGyA?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
         ],
@@ -256,7 +250,7 @@ export const leistungenData = [
         callout: 'Aus alt mach neu – mit Qualität, die bleibt.',
         extraImages: [
           'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1503594384566-461fe158e797?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
@@ -314,7 +308,6 @@ export const leistungenData = [
         extraImages: [
           'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=800&q=80',
           'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { number: '01', title: 'Umzugsplanung', text: 'Zeitplan, Materialien, Fahrzeuge – wir organisieren alles im Voraus.' },
@@ -332,8 +325,8 @@ export const leistungenData = [
         callout: 'Ihr Zuhause soll sicher bleiben – ein Leben lang.',
         extraImages: [
           'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1534705867302-2a41394f2a3b?auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1495042823740-46feea76a69c?auto=format&fit=crop&w=800&q=80',
         ],
         highlights: [
           { title: 'Barrierefreies Bad', text: 'Bodengleiche Dusche, Haltegriffe, erhöhte WC-Sitze – sicher und komfortabel.' },
@@ -400,7 +393,7 @@ export const leistungenData = [
         slug: 'planung',
         name: 'Planung',
         description: 'Unterstützung bei der Konzeption und Logistik Ihres Events. Wir bringen Struktur in Ihre Ideen und koordinieren die Umsetzung.',
-        image: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&w=800&q=80',
         layoutType: 'active',
         callout: 'Ihre Idee. Unser Plan. Ihr Erfolg.',
         extraImages: [

@@ -77,7 +77,7 @@ export default function HomePageContent() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "200px" }}>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
-                  <Image src="https://images.unsplash.com/photo-oiqFyLx_KDU?auto=format&fit=crop&w=800&q=80" alt="Team bespricht Kundenprojekt gemeinsam" className="object-cover" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                  <Image src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Team bespricht Kundenprojekt gemeinsam" className="object-cover" fill sizes="(max-width: 768px) 100vw, 50vw" />
                   <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
                 </div>
               </motion.div>

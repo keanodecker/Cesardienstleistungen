@@ -271,7 +271,7 @@ function PracticalLayout({ category, subcategory }) {
       {subcategory.extraImages?.length > 0 && (
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+            <div className={`grid gap-4 mx-auto ${subcategory.extraImages.length <= 2 ? 'grid-cols-2 max-w-2xl' : 'grid-cols-2 md:grid-cols-3 max-w-3xl'}`}>
               {subcategory.extraImages.map((src, i) => (
                 <motion.div
                   key={i}
