@@ -201,14 +201,10 @@ export const leistungenData = [
         slug: 'fahrservice',
         name: 'Fahrservice',
         description: 'Zuverlässiger und komfortabler Transport zu Ärzten, Therapien oder privaten Verabredungen – inklusive persönlicher Begleitung bis zur Tür.',
-        image: 'https://images.unsplash.com/photo-1552519507-da3b142351b5?auto=format&fit=crop&w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80',
         layoutType: 'practical',
         callout: 'Pünktlich, sicher, persönlich – nicht nur ein Fahrdienst.',
-        extraImages: [
-          'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=800&q=80',
-          'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80',
-        ],
+        extraImages: [],
         highlights: [
           { number: '01', title: 'Abholung von zu Hause', text: 'Wir kommen pünktlich zu Ihnen – von der Haustür bis zum Zielort.' },
           { number: '02', title: 'Begleitung zum Termin', text: 'Wir warten, begleiten ins Gebäude und stehen bei Bedarf mit Rat und Tat zur Seite.' },
