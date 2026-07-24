@@ -8,8 +8,8 @@ import { leistungenData } from '@/data/leistungenData';
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary text-white pt-16 pb-8">
-      <div className="container mx-auto px-4">
+    <footer className="bg-secondary text-white pt-16">
+      <div className="container mx-auto px-4 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-24 mb-16">
           {/* Column 1 */}
           <div>
@@ -110,9 +110,11 @@ export default function Footer() {
             </a>
           </div>
         </div>
+      </div>
 
-        {/* Media Castle Signatur */}
-        <div className="mt-8 flex justify-center">
+      {/* Media Castle Signatur — auf weißem Grund */}
+      <div className="bg-white py-6">
+        <div className="container mx-auto px-4 flex justify-center">
           <MediaCastleSignature />
         </div>
       </div>
