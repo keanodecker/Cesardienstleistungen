@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { Mail, Phone, Smartphone, MapPin } from 'lucide-react';
 import CallbackForm from '@/components/CallbackForm';
+import MediaCastleSignature from '@/components/MediaCastleSignature';
 import { leistungenData } from '@/data/leistungenData';
 
 export default function Footer() {
@@ -108,6 +109,11 @@ export default function Footer() {
               Cesar Sicherheit.de &rarr;
             </a>
           </div>
+        </div>
+
+        {/* Media Castle Signatur */}
+        <div className="mt-8 flex justify-center">
+          <MediaCastleSignature />
         </div>
       </div>
     </footer>
