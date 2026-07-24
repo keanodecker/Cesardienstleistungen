@@ -18,23 +18,23 @@ export default function MediaCastleSignature() {
       <Image
         src="/logos/mediacastle-crest-white.png"
         alt="Media Castle"
-        width={34}
-        height={34}
-        className="h-[34px] w-[34px]"
+        width={46}
+        height={46}
+        className="h-[46px] w-[46px]"
       />
       <span className="flex flex-col" style={{ lineHeight: 1.02 }}>
         <span
           className="uppercase"
           style={{
-            fontSize: '9px',
+            fontSize: '12px',
             fontWeight: 500,
-            letterSpacing: '2.2px',
+            letterSpacing: '2.8px',
             color: 'rgba(255,255,255,.6)',
           }}
         >
           visualized by
         </span>
-        <span style={{ fontSize: '16px', fontWeight: 600 }}>media castle</span>
+        <span style={{ fontSize: '22px', fontWeight: 600 }}>media castle</span>
       </span>
     </a>
   );
